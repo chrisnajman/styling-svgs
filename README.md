@@ -3,7 +3,7 @@
 ## CSS Limitations
 
 - If all `path`, `rect` and `line` elements of an SVG share the same `color`, `stroke-width` etc, then you can use a sprite.
-- If individual `path`s contain different `color`s, `stroke-width`s etc, you have to use inline SVG.
+- If individual `path`s contain different `color`s, `stroke-width`s etc, you have to use an inline SVG or it will not display.
 
 See [Styling SVGs Git Page](https://chrisnajman.github.io/styling-svgs)
 

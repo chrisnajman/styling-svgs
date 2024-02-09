@@ -1,0 +1,48 @@
+.main-icons-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-icon {
+    width: 10rem;
+    height: 10rem;
+}
+
+.dna {
+    fill: var(--main-icon-fill);
+    stroke: var(--main-icon-stroke);
+    stroke-miterlimit: 10;
+    stroke-width: 0.192rem;
+}
+
+.page {
+    fill: var(--main-icon-fill);
+
+    & .rect-1 {
+        width: 4.8rem;
+        height: 4.8rem;
+        fill: none;
+    }
+
+    & .rect-2 {
+        width: 4rem;
+        height: 4rem;
+        stroke: var(--main-icon-stroke);
+        stroke-width: 0.4rem;
+        stroke-linejoin: round;
+    }
+
+    & .path-1 {
+        stroke: var(--main-icon-stroke);
+        stroke-width: 0.4rem;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    & .path-2 {
+        stroke: var(--main-icon-stroke);
+        stroke-width: 0.4rem;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+}
